@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Sijmen Mulder</string>
+	<string>Leo Natan</string>
 	<key>Builder Version</key>
-	<string>9537.77.4</string>
+	<string>13604.1.34</string>
 	<key>CFBundleDisplayName</key>
-	<string>URL Rewrite</string>
+	<string>Apple Documentation in Objective C</string>
 	<key>CFBundleIdentifier</key>
-	<string>nl.sjmulder.urlrewrite</string>
+	<string>com.leonatan.appledocsobjc</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>1</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Global Page</key>
@@ -27,7 +27,9 @@
 		<dict/>
 	</dict>
 	<key>Description</key>
-	<string>An extension that lets you redirect Safari for specific URLs</string>
+	<string>Redirects navigation attempts to Apple documentation to always be in Objective C.</string>
+	<key>DeveloperIdentifier</key>
+	<string>S9QFG2VH2E</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -41,6 +43,6 @@
 		</dict>
 	</dict>
 	<key>Website</key>
-	<string>http://github.com/sjmulder/urlrewrite-safari</string>
+	<string>https://github.com/LeoNatan/appledocs_alwaysobjc</string>
 </dict>
 </plist>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>URL Rewrite extension</title>
+<script>
+	(function () {
+		'use strict';
+
+		safari.application.addEventListener('beforeNavigate', function (event) {
+			if (event.url == null) {
+				return;
+			}
+
+			if (event.url.startsWith("https://developer.apple.com/documentation/") && event.url.endsWith("?language=objc") == false) {
+				event.target.url = event.url + "?language=objc";
+			}
+		}, true);
+
+	})();
+
+</script>
